@@ -9,7 +9,7 @@ import { ResumeComponent } from './resume/resume.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo:'about',
+    redirectTo:'/about',
     pathMatch:'full'
   },
   {
