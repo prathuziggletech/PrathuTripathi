@@ -8,8 +8,8 @@ import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo:'/about',
+    path: '**',
+    redirectTo:'/',
     pathMatch:'full'
   },
   {
