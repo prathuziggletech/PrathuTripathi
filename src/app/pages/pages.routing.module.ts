@@ -30,7 +30,6 @@ const routes: Routes = [
   {
     path: '**',
     redirectTo:'about',
-    pathMatch:'full'
   }
 ];
 
